@@ -47,17 +47,16 @@ export default StyleSheet.create({
         justifyContent: "space-between",
     },
     titleText: {
-        fontSize: 20,
-        backgroundColor: "#fce6ea",
+        fontSize: 16,
         alignSelf: "flex-start",
-        marginBottom: 5
+        marginBottom: 5,
+        fontWeight: "bold",
     },
     textGenral: {
         fontSize: 13,
         marginBottom: 2
     },
     textBackground: {
-        backgroundColor: "#fce6ea",
         alignSelf: "flex-start",
     },
     buttonDisponivel: {
@@ -69,8 +68,16 @@ export default StyleSheet.create({
         paddingVertical: 5,
         borderRadius: 30,
     },
+    buttonEsgotado: {
+        justifyContent: "center",
+        alignItems: "center",
+        marginTop: 5,
+        backgroundColor: "#D8D8D8",
+        padding: 10,
+        paddingVertical: 5,
+        borderRadius: 30,
+    },
     textButtonDisponivel: {
-        backgroundColor: "#fce6ea",
     },
     avaliationContainer: {
         flexDirection: "column",
@@ -80,5 +87,32 @@ export default StyleSheet.create({
         marginTop: 5,
         flexDirection: "row",
         alignItems: "flex-end",
+    },
+    modalContainer: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginTop: 22,
+    },
+    modalView: {
+        margin: 20,
+        backgroundColor: 'white',
+        borderRadius: 20,
+        padding: 35,
+        paddingTop: 20,
+        alignItems: 'center',
+        shadowColor: '#000',
+        shadowOffset: {
+            width: 0,
+            height: 2,
+        },
+        shadowOpacity: 0.25,
+        shadowRadius: 4,
+        elevation: 5,
+    },
+    titleDate: {
+        marginBottom: 10,
+        fontWeight: "bold",
+        fontSize: 18
     }
 })

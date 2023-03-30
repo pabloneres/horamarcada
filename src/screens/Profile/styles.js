@@ -26,10 +26,11 @@ export default StyleSheet.create({
         marginBottom: 2
     },
     textBackground: {
-        backgroundColor: "#fce6ea",
+        // backgroundColor: "#fce6ea",
         alignSelf: "flex-start",
         fontSize: 18,
-        marginBottom: 10
+        marginBottom: 10,
+        color: "#FFF"
     },
     profileContainer: {
         justifyContent: 'center',

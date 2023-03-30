@@ -19,9 +19,9 @@ function Profile({ navigation }) {
                 <View style={styles.profileContainer}>
                     <View style={styles.imageContainer}></View>
                     <View style={styles.dadosContainer}>
-                        <Text style={[{ backgroundColor: "#fce6ea", color: "#000", fontSize: 18 }]}>Iago Neres</Text>
+                        <Text style={[{ color: "#fff", fontSize: 18 }]}>Iago Neres</Text>
                         <View style={{ marginVertical: 5, height: 4, width: 200, backgroundColor: "#fff" }} />
-                        <Text style={[{ backgroundColor: "#fce6ea", color: "#000", fontSize: 18 }]}>iago@gmail.com</Text>
+                        <Text style={[{ color: "#fff", fontSize: 18 }]}>iago@gmail.com</Text>
                     </View>
                 </View>
 
