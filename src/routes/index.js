@@ -5,6 +5,7 @@ const Stack = createNativeStackNavigator();
 
 import Home from './homeNavigation';
 import Login from '../screens/Login';
+import Register from '../screens/Register';
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
             style={{ flex: 1, backgroundColor: '#25221D' }}
         >
             <Stack.Screen name="Login" component={Login} />
+            <Stack.Screen name="Register" component={Register} />
             <Stack.Screen name="HomeNav" component={Home} />
         </Stack.Navigator>
     );

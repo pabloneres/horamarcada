@@ -20,7 +20,7 @@ function Login({ navigation }) {
                     <TouchableOpacity onPress={() => navigation.navigate("HomeNav")} style={styles.button}>
                         <Text style={styles.textButton}>ENTRAR</Text>
                     </TouchableOpacity>
-                    <TouchableOpacity style={styles.button}>
+                    <TouchableOpacity onPress={() => navigation.navigate("Register")} style={styles.button}>
                         <Text style={styles.textButton}>REGISTRAR-SE</Text>
                     </TouchableOpacity>
                 </View>

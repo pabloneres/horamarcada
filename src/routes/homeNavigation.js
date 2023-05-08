@@ -5,6 +5,7 @@ const Drawer = createDrawerNavigator();
 
 import Home from '../screens/Home'
 import Profile from '../screens/Profile'
+import Database from '../screens/Database';
 
 function MyDrawer() {
     return (
@@ -22,6 +23,7 @@ function MyDrawer() {
         >
             <Drawer.Screen name="Home" component={Home} />
             <Drawer.Screen name="Profile" component={Profile} />
+            <Drawer.Screen name="Database" component={Database} />
         </Drawer.Navigator>
     );
 }

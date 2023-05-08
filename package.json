@@ -7,7 +7,8 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "build:preview": "eas build --profile preview --platform android"
+    "build:preview": "eas build --profile preview --platform android",
+    "build:dev:android": "eas build --profile development --platform android"
   },
   "dependencies": {
     "@react-native-community/datetimepicker": "6.7.3",
@@ -15,6 +16,10 @@
     "@react-navigation/native": "^6.1.6",
     "@react-navigation/native-stack": "^6.9.12",
     "expo": "~48.0.9",
+    "expo-asset": "~8.9.1",
+    "expo-dev-client": "~2.2.1",
+    "expo-file-system": "~15.2.2",
+    "expo-sqlite": "~11.1.1",
     "expo-status-bar": "~1.4.4",
     "expo-updates": "~0.16.3",
     "react": "18.2.0",
